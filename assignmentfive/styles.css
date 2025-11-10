@@ -1,0 +1,53 @@
+body {
+    background-color:#ffffff;
+}
+
+.outer-box {
+    width: 525px;
+    height: 725px;
+    background-color:yellow;
+    border: 2px solid red;
+    border-radius: 16px;
+}
+
+.inner-box {
+    width: 450px;
+    height: 450px;
+    background-color:#049b1c;
+    border: 6px solid red;
+    border-radius: 16px;
+    margin: 20px auto;
+}
+
+.card1 {
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+.card2 {
+    width: 150px;
+    height: 200px;
+    background-color:blue;
+    border-radius: 8px;
+    margin: 5px 20px;
+}
+
+.card3 {
+    width: 150px;
+    height: 60px;
+    background-color:darkorange;
+    border-radius: 8px;
+    margin: 30px auto;
+}
+
+.outer-box2 {
+    width: 150px;
+    height: 200px;
+    background-color:#ff0000;
+    border-radius: 8px;
+    margin: 5px 40px;
+}
+
