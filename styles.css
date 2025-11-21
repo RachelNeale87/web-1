@@ -1,53 +1,72 @@
 body {
-    background-color:#ffffff;
+    background-color: azure
 }
 
 .outer-box {
-    width: 525px;
-    height: 725px;
-    background-color:yellow;
-    border: 2px solid red;
-    border-radius: 16px;
-}
-
-.inner-box {
-    width: 450px;
-    height: 450px;
-    background-color:#049b1c;
-    border: 6px solid red;
-    border-radius: 16px;
-    margin: 20px auto;
-}
-
-.card1 {
-    width: 100px;
-    height: 100px;
-    background-color:aqua;
-    border-radius: 8px;
-    margin: 20px auto;
-}
-
-.card2 {
-    width: 150px;
+    background-color:#66decc;
     height: 200px;
-    background-color:blue;
-    border-radius: 8px;
-    margin: 5px 20px;
+    padding: 0 16px;
+    margin: 24px 0
 }
 
-.card3 {
+.inner-box1, .inner-box2 {
     width: 150px;
-    height: 60px;
-    background-color:darkorange;
-    border-radius: 8px;
-    margin: 30px auto;
+    height: 150px;
+    background-color: darkcyan;
+    margin: 24px 0
+}
+
+.inner-box1 {
+    float: left;
+}
+
+.inner-box2 {
+    float: right;
 }
 
 .outer-box2 {
-    width: 150px;
-    height: 200px;
-    background-color:#ff0000;
-    border-radius: 8px;
-    margin: 5px 40px;
+    background-color:#1e453f;
+    height: 370px;
+    padding: 0 16px;
+    margin: 24px 0
 }
 
+.inner-box3, .inner-box4 {
+    width: 150px;
+    height: 150px;
+    background-color: #66decc;
+    margin: 24px 0
+}
+
+.inner-box3 {
+    float: left;
+}
+
+.inner-box4 {
+    float: right;
+}
+
+.inner-box5 {
+    float: inline-end;
+    width: 386px;
+    height: 150px;
+    background-color: azure;
+    margin: px 0
+}
+
+.outer-box3 {
+    background-color:darkcyan;
+    height: 300px;
+    padding: 2px;
+}
+
+.inner-box6 {
+    width: 150px;
+    height: 150px;
+    background-color: #1e453f;
+}
+
+.inner-box6 {
+    float: left;
+    margin: 14px;
+}
